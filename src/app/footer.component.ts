@@ -1,13 +1,13 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 @Component({
-    selector:'app-footer',
-    template:` 
+    selector: 'app-footer',
+    template: ` 
     <div>
     <p>
     copyright &#169; by me
     </p>
     </div>`,
-    styles:[`
+    styles: [`
     div{
             margin: 0px;
             width: 100%;
@@ -15,13 +15,18 @@ import {Component} from '@angular/core';
             position: absolute;
             text-align: end;
             background-color: black;
+            right:0;
+            height:25px;
         }
         p{
             color:red;
-            text-align: center;
+            text-align: end;
+            margin: 0;
+            padding: 0;
+
          }
     `]
 })
-export class footercomponent{
+export class footercomponent {
 
 }
