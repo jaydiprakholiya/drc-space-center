@@ -1,16 +1,21 @@
-<!-- <div class="capsules">
-    <div class="capsules--field field">
+<div *ngFor="let list of list" class="capsules">
+    <div class="capsules--field ">
         <div class="field--label">Name</div>
-        <div class="field--values">{{item.name}}</div>
+        <div class="field--values">{{list.name}}</div>
     </div>
-    <div class="capsules--label">
-        {{item.name}}
+    
+    <div class="capsules--field">
+        <div class="field--label">date</div>
+        <div class="field--values">{{list.date}}</div>
     </div>
 
-</div> -->
-<ul>
-    <li *ngFor="let item for list">
-        {{item.name}}
+</div>
+<!-- <ul>
+    <li *ngFor="let list of list">
+        {{list.name}}
     </li>
 
-</ul>
+</ul> -->
+<!-- <div *ngFor="let list of list">
+    <app-capsule-item [list]="list"></app-capsule-item>
+</div> -->

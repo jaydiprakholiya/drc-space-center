@@ -10,24 +10,5 @@ import{capsules} from './modeles/capsule.models';
 export class AppComponent {
   title = 'drc-space-center';
 
- capsules:capsules=[{
-   name:'c1',
-   date:new Date,
-   note:'NA'
- },
- {
-  name:'c2',
-  date:new Date,
-  note:'NA'
-},
-{
-  name:'c3',
-  date:new Date,
-  note:'NA'
-},
-{
-  name:'c4',
-  date:new Date,
-  note:'NA'
-}]  
+ 
 }

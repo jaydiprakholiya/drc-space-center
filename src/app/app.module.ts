@@ -8,6 +8,7 @@ import {footercomponent} from './footer.component';
 import { NevigationComponent } from './nevigation/nevigation.component';
 import { CapsulesComponent } from './capsules/capsules.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { CapsulesComponent } from './capsules/capsules.component';
     HeaderComponent,
     footercomponent,
     NevigationComponent,
-    CapsulesComponent
+    CapsulesComponent,
+   
    
   ],
   imports: [
