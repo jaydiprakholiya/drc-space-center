@@ -6,8 +6,7 @@ import { LogoComponent } from './logo/logo.component';
 import { HeaderComponent } from './header/header.component';
 import {footercomponent} from './footer.component';
 import { NevigationComponent } from './nevigation/nevigation.component';
-import { CapsulesComponent } from './capsules/capsules.component';
-
+import { AppRoutingModules,routingcomponent } from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -16,12 +15,14 @@ import { CapsulesComponent } from './capsules/capsules.component';
     HeaderComponent,
     footercomponent,
     NevigationComponent,
-    CapsulesComponent,
-   
-   
+    routingcomponent  
+       
+      
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModules,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,4 +3,4 @@ export interface Capsule{
     date:Date;
     note?:string;
 }
-export type capsules=Capsule[];
+ export type capsules=Capsule[]
