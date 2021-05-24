@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { LogoComponent } from './logo/logo.component';
 import { HeaderComponent } from './header/header.component';
 import {footercomponent} from './footer.component';
-import { NevigationComponent } from './nevigation/nevigation.component';
+import { NevigationComponent } from './header/nevigation/nevigation.component';
 import { AppRoutingModules,routingcomponent } from "./app-routing.module";
 import { NotFoundComponent } from './not-found/not-found.component';
 
