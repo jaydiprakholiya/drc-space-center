@@ -1,0 +1,21 @@
+<div *ngFor="let list of list" class="capsules">
+    <div class="capsules--field ">
+        <div class="field--label">Name :- &nbsp;&nbsp;</div>
+        <div class="field--values"> {{list.name}}</div>
+    </div>
+    <br>
+    <div class="capsules--field">
+        <div class="field--label">date :- &nbsp;&nbsp;</div>
+        <div class="field--values">{{list.date}}</div>
+    </div><br><br>
+
+</div><br>
+<!-- <ul>
+    <li *ngFor="let list of list">
+        {{list.name}}
+    </li>
+
+</ul> -->
+<!-- <div *ngFor="let list of list">
+    <app-capsule-item [list]="list"></app-capsule-item>
+</div> -->

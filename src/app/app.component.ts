@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import{capsules} from './modeles/capsule.models';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'drc-space-center';
+
+ 
 }
