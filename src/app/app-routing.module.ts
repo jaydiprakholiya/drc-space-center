@@ -9,17 +9,14 @@ import { RocketsComponent } from './rockets/rockets.component';
 
 
 const routes:Routes = [
-    {path:'Home',component:AppComponent},
-    {path:'Capsules',component:CapsulesComponent},
-    {path:'Rockets',component:RocketsComponent},
-    {path:'Mission',component:MissionComponent},
-    {path:'Blog',component:BlogComponent},
-    {path:"**",component:NotFoundComponent}
+    { path:'Rockets',
+    component:RocketsComponent }
+   
 ];
 
 @NgModule({
-imports:[RouterModule .forRoot(routes)],
-exports:[RouterModule]
+imports:[ RouterModule .forRoot(routes) ],
+exports: [ RouterModule ]
 })
 export class AppRoutingModules{ } 
 
