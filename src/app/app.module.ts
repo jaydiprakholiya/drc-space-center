@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import {footercomponent} from './footer.component';
 import { NevigationComponent } from './nevigation/nevigation.component';
 import { AppRoutingModules,routingcomponent } from "./app-routing.module";
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { AppRoutingModules,routingcomponent } from "./app-routing.module";
     footercomponent,
     NevigationComponent,
     routingcomponent,
+    NotFoundComponent,
      
        
       
